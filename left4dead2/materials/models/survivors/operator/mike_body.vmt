@@ -1,0 +1,18 @@
+patch
+{
+	include "materials/models/survivors/survivors_it_shared.vmt"
+	insert
+	{
+		$baseTexture "models\survivors\operator\mike_body"
+		$bumpmap "models\survivors\operator\mike_body_normal"
+		$phong 1
+		$phongboost "1.4"	
+		$phongexponent 5
+		$phongtint "[.85 .85 1]"
+		$halflambert 0
+		$phongfresnelranges "[.3 .65 5]"
+		$ambientocclusion 1
+
+		$diffuseexp "1.5"
+}
+}
