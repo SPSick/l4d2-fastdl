@@ -1,0 +1,15 @@
+patch
+{
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\keith\keith_hair_color"
+
+$nocull 1
+$translucent 1
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+}
+}
