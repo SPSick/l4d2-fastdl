@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+$baseTexture "models\survivors\keith\keith_upper_color"
+$bumpmap "models\survivors\keith\keith_upper_normal"
+
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+
+$phong 1
+$phongboost "2.5"
+$phongexponent 5
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.3 .65 30]"
+}
