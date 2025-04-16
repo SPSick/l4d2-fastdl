@@ -1,0 +1,22 @@
+patch
+{
+include "materials/models/survivors/survivors_it_shared.vmt"
+insert
+{
+$baseTexture "models\survivors\sarahmgellar\smg_body_color"
+$bumpmap "models\survivors\sarahmgellar\smg_body_normal"
+
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+
+$phong 1
+$phongboost 1
+$phongexponent 5
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.1 .1 .1]"
+
+$lightwarptexture "models\survivors\coach\coach_head_wrp"
+}
+}
