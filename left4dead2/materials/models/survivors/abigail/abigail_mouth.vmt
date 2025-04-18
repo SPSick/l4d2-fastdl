@@ -1,0 +1,10 @@
+vertexlitgeneric
+{
+$baseTexture "models\survivors\abigail\abigail_mouth_color"
+$bumpmap "models\survivors\abigail\abigail_mouth_normal"
+
+$nodecal 1
+$ambientocclusion 1
+$halflambert 0
+$diffuseexp "1.5"
+}
